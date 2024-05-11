@@ -1,0 +1,166 @@
+.activityWrapper h3 {
+    letter-spacing: 3px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.activity {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 400px; 
+    text-align: left;
+}
+  
+#activityName {
+    letter-spacing: 3px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.activity .details {
+    display: none;
+}
+  
+.activity:hover .details {
+    display: block; 
+}
+
+.activities {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.popupContent h2 {
+    padding-bottom: 40px;
+}
+
+button {
+    background-color: rgb(84, 81, 81); 
+    color: #fff; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    align-self: center;
+  }
+  
+button:hover {
+    background-color: rgb(84, 81, 81);
+}
+
+.activity input {
+    width: 50%; 
+    padding: 10px; 
+    margin-bottom: 15px;
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    background-color: #f4f9f9;
+    color: rgb(84, 81, 81);
+}
+
+.confirmBtn {
+    margin-left: 10px;
+}
+
+.addActivityBtn {
+    margin-bottom: 15px;
+}
+
+.popupOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+  
+.popup {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+  
+.close {
+    position: absolute;
+    top: 1000px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.close:hover {
+    font-weight: bolder;
+}
+
+.formWrapperPopup {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 60vw;
+    height: 50vh;
+}
+
+label {
+    display: block; 
+    margin-bottom: 10px; 
+    color: #333; 
+}
+  
+.formWrapperPopup input {
+    width: 80%; 
+    padding: 10px; 
+    margin-bottom: 15px;
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    background-color: #f4f9f9;
+    color: #333;
+}
+
+.popupContent {
+    position: relative;
+}
+
+.deleteIcon {
+    cursor: pointer;
+    color: #F00000; 
+    margin-left: 5px; 
+    font-size: 20px;
+}
+
+.deleteIcon:hover {
+    font-weight: bolder;
+    color: #C70000;
+}
+
+.deleteActivityContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.deleteIcon.deleteActivity {
+    margin-left: auto;
+    padding-bottom: 10px;
+}
+
+.closed {
+    position: absolute;
+    top: 80px;
+    right: 300px;
+    cursor: pointer;
+    font-size: 24px;
+}

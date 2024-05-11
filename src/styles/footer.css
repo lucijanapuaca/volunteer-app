@@ -1,0 +1,37 @@
+.footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color: rgb(84, 81, 81);
+    color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    flex-shrink: 0;
+}
+  
+.footer-content {
+    text-align: center;
+    letter-spacing: 3px;
+    margin-bottom: 40px;
+}
+
+.footer-content h4 {
+    font-weight: lighter;
+    font-size: small;
+}
+
+.footer-content h3 {
+    font-weight: normal;
+}
+
+.footer-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(84, 81, 81);
+    color: #fff;
+    padding: 1px 20px; 
+    box-sizing: border-box; 
+}
+

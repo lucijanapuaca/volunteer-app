@@ -1,0 +1,199 @@
+{
+  "messages": [
+    {
+      "id": "1",
+      "name": "Lovre Tudor",
+      "email": "lt@yahoo.com",
+      "message": "Pozdrav svima"
+    },
+    {
+      "id": "5a6d",
+      "name": "Adriana Marović",
+      "email": "am5@gmail.com",
+      "message": "Rasturam!"
+    }
+  ],
+  "activities": [
+    {
+      "id": "1",
+      "name": "Zborovanje izviđača Hrvatske",
+      "description": "Okupljanje svih izviđača u Hrvatskoj na jedan vikend pun zabave i natjecanja",
+      "organizer": "SIH",
+      "location": "Karlovac",
+      "date": "17.5.2024.",
+      "time": "10:00 - 24:00",
+      "image": "https://split.gg/wp-content/uploads/2016/05/marjan_vidilica.jpg",
+      "participants": [
+        {
+          "id": "101",
+          "name": "Ana Horvat"
+        },
+        {
+          "id": "102",
+          "name": "Marko Petrović"
+        },
+        {
+          "id": "0.7989732988725505",
+          "name": "khvkujv"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Logor Skautskog kluba Marjan",
+      "description": "SK Marjan ide na logorovanje s češkim izviđačima",
+      "organizer": "SK Marjan",
+      "location": "Drvenik Mali",
+      "date": "20.07.2024.",
+      "time": "10:00 - 24:00",
+      "image": "https://lugia-boats.com/wp-content/uploads/2023/08/wyspa-ciovo.jpeg",
+      "participants": [
+        {
+          "id": "0.6656988248533622",
+          "name": "Ivan Mihovilović"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Izlet na izvor Jadro",
+      "description": "Izviđači grada Splita idu na izlet za kraj školske godine",
+      "organizer": "Splitski skautski zbor",
+      "location": "izvor Jadro",
+      "date": "20.06.2024.",
+      "time": "09:00 - 16:00",
+      "image": "https://t3.ftcdn.net/jpg/02/30/17/68/360_F_230176885_oYkNIt6oxQn7HzjmYvQBCU323RXuIMax.jpg",
+      "participants": [
+        {
+          "id": "101",
+          "name": "Ana Horvat"
+        }
+      ]
+    }
+  ],
+  "cities": [
+    {
+      "id": "1",
+      "name": "Split"
+    },
+    {
+      "id": "2",
+      "name": "Omiš"
+    },
+    {
+      "id": "3",
+      "name": "Trogir"
+    },
+    {
+      "id": "4",
+      "name": "Solin"
+    },
+    {
+      "id": "5",
+      "name": "Trilj"
+    },
+    {
+      "id": "6",
+      "name": "Sinj"
+    }
+  ],
+  "occupations": [
+    {
+      "id": "1",
+      "name": "Čvorovi"
+    },
+    {
+      "id": "2",
+      "name": "Topografija"
+    },
+    {
+      "id": "3",
+      "name": "Priroda"
+    },
+    {
+      "id": "4",
+      "name": "Razno"
+    }
+  ],
+  "volunteers": [
+    {
+      "id": "1",
+      "name": "Sara Mamić",
+      "contact": "sm10@gmail.com",
+      "city": "Split",
+      "occupation": [
+        "Čvorovi",
+        "Razno"
+      ],
+      "image": "https://images.unsplash.com/photo-1586297135537-94bc9ba060aa?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": "2",
+      "name": "Len Čerina",
+      "contact": "lc@yahoo.com",
+      "city": "Split",
+      "occupation": [
+        "Topografija"
+      ],
+      "image": "https://images.unsplash.com/photo-1527980965255-d3b416303d12?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": "3",
+      "name": "Ana Strinić",
+      "contact": "ana.ss88@hotmail.com",
+      "city": "Omiš",
+      "occupation": [
+        "Ekologija",
+        "Razno"
+      ],
+      "image": "https://images.unsplash.com/photo-1701615004837-40d8573b6652?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": "4",
+      "name": "Ivo Kršinić",
+      "contact": "ivom@gmail.com",
+      "city": "Split",
+      "occupation": [
+        "Razno"
+      ],
+      "image": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    }
+  ],
+  "associations": [
+    {
+      "id": "1",
+      "name": "SK Marjan",
+      "address": "Jeretova 1",
+      "city": "Split",
+      "status": "approved"
+    },
+    {
+      "id": "2",
+      "name": "SK Split",
+      "address": "Lička sUlica 9",
+      "city": "Split",
+      "status": "approved"
+    },
+    {
+      "id": "3",
+      "name": "OIP Jadran",
+      "address": "Kroz Smrdečac 25",
+      "city": "Split",
+      "status": "approved"
+    },
+    {
+      "id": "4",
+      "name": "OIP Spinut",
+      "address": "Ulica Fra Bonina 11",
+      "city": "Split",
+      "status": "approved"
+    },
+    {
+      "id": "5",
+      "name": "OIP Brodosplit",
+      "address": "Put Skalica 2",
+      "city": "Split",
+      "status": "approved"
+    }
+  ]
+}
